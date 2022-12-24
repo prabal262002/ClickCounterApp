@@ -15,9 +15,6 @@ class MainActivity : AppCompatActivity() {
         var countVariable:Int = 0
         imageButton.setOnClickListener{
         imageButton.text = "You Clicked ${++countVariable} times"
-            if(countVariable>=15)   imageButton.text = "Kitna Khali Hai Re Tu BSDK!!!"
-            if(countVariable>=35)   imageButton.text = "Haan Aise Hi Dabate reh Chutiye!!!"
-            if(countVariable>=55)   imageButton.text = "Chala Jaa BSDK!!!"
         }
 
     }
