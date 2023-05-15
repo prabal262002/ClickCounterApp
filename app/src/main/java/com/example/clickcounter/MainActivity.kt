@@ -14,7 +14,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
         var countVariable:Int = 0
         imageButton.setOnClickListener{
-        imageButton.text = "You Clicked ${++countVariable} times"
+        imageButton.text = "We Clicked ${++countVariable} times"
         }
 
     }
